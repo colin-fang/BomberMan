@@ -1,0 +1,20 @@
+My program reads an Input.txt file from within the same directory.
+It will output the final board as well as the win/loss/stalemate condition
+It can print out the board of every step it takes if PrintBoard is called every loop
+
+My program reads the first 200 inputs and organizes it into a 2D array of Actors
+Each Actor has 3 characters
+There are a total of 13 actors created (1 empty, 1 rock, 1 player and 10 enemies)
+The 2D array is populated by pointers that point to one of the 13 actors
+The program then reads all inputs and interprets them as actions for the player and enemies
+When actors move or die the pointers pointing to them simply point to a different actor (the empty actor) and a new pointer may be allocated to them
+
+Thanks for this opportunity, it was a lot of fun! I look forward to hearing back from you again.
+
+Time:
+3-16-2022: approximately 3 hours spent on downloading and setting up c++/vs/cygwin/g++
+			2-3 hours spent on reading from the input text file
+3-17-2022: approximately 5 hours spent on interpreting the text file and organizing it into a 2D array
+3-18-2022: approximately 5 hours spent on creating all functions that handle actor actions
+			approximately 2 hours spent on commenting, cleaning the code, checking all requirements are met
+			approximately 30 minutes spent on final testing, and creating annotation and notes text file.
